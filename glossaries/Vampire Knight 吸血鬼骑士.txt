@@ -1,4 +1,4 @@
-版本号：1.0.5
+版本号：1.0.6
 维护者：Shlylhy
 更新时间：2026-02-26
 
@@ -91,15 +91,6 @@ Artemis：狩猎女神
 // 其他物品
 Blood lake agent=血液淀剂
 
-正则表达式
-// 规则：匹配 "level" 的各种大小写形式及其后的等级字母（A-E），统一为 "Level X" 格式。
-\blevel\s*([A-Ea-e])\b: Level $1
-// 处理已翻译中文名字后的敬语
-([\u4e00-\u9fa5]+)[\s\-_]*sama：$1大人
-([\u4e00-\u9fa5]+)[\s\-_]*chan：$1酱
-([\u4e00-\u9fa5]+)[\s\-_]*san：$1桑
-([\u4e00-\u9fa5]+)[\s\-_]*kun：$1君
-
 禁翻词条
 // 此区域区分大小写，用于保持原文
 Level A
@@ -108,5 +99,14 @@ Level C
 Level D
 Level E
 
+正则表达式
+// 规则：匹配 "level" 的各种大小写形式及其后的等级字母（A-E），统一为 "Level X" 格式。
+\blevel\s*([A-Ea-e])\b: Level $1
+
+// 处理已翻译中文名字后的敬语（使用英文冒号）
+([\u4e00-\u9fa5]+)[\s\-]*sama: $1大人
+([\u4e00-\u9fa5]+)[\s\-]*chan: $1酱
+([\u4e00-\u9fa5]+)[\s\-]*san: $1桑
+([\u4e00-\u9fa5]+)[\s\-]*kun: $1君
+
 //日文与罗马音对照参考了https://vampireknight.fandom.com/wiki/Vampire_Knight_Wiki
-//部分代码使用了ai编写
