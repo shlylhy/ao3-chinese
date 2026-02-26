@@ -90,14 +90,13 @@ Council：元老院
 Senate：元老院
 
 // 重要武器
-Bloody Rose：血蔷薇之枪
+Bloody Rose：血蔷薇
 Artemis：狩猎女神
 
 // 其他物品
 Blood lake agent=血液淀剂
 
 正则表达式
-// *************** 处理吸血鬼等级的各种写法 ***************
 // 规则：匹配 "level" 的各种大小写形式及其后的等级字母（A-E），统一为 "Level X" 格式。
 \blevel\s*([A-Ea-e])\b: Level $1
 // 处理已翻译中文名字后的敬语
@@ -105,7 +104,6 @@ Blood lake agent=血液淀剂
 ([\u4e00-\u9fa5]+)-chan：$1酱
 ([\u4e00-\u9fa5]+)-san：$1桑
 ([\u4e00-\u9fa5]+)-kun：$1君
-
 
 禁翻词条
 // 此区域区分大小写，用于保持原文
