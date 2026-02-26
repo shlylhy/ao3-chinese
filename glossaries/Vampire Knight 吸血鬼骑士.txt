@@ -1,4 +1,4 @@
-版本号：1.0.8
+版本号：1.0.9
 维护者：Shlylhy
 更新时间：2026-02-26
 
@@ -11,7 +11,7 @@ Kuran Yuuki=玖兰 优姬
 Kuran Haruka=玖兰 悠
 Kuran Juri=玖兰 树里
 Kuran Rido=玖兰 李土
-Kuran Ai=玖兰爱
+Kuran Ai=玖兰 爱
 
 // 夜间部贵族吸血鬼
 Aido Hanabusa=蓝堂 英
@@ -25,6 +25,7 @@ Senri Shiki=支葵 千里
 
 // 其他贵族吸血鬼
 Ichijo Asato=一条 麻远
+Ichijo Asatoo=一条 麻远
 Ichio=一翁
 Aido Tsukiko=蓝堂 月子
 
@@ -56,7 +57,7 @@ Kageyama Kasumi=影山 霞
 Shindo Nadeshiko=新藤 抚子
 Kisaragi Fuka=如月 风花
 Wakaba Sayori=若叶 沙赖
-Yori=沙赖
+Yori=小赖
 Yagari Tooga=夜刈 十牙
 Yagari Toga=夜刈 十牙
 Takamiya Kaito=鹰宫 海斗
