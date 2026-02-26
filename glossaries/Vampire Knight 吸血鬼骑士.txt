@@ -1,4 +1,4 @@
-版本号：1.0.3
+版本号：1.0.4
 维护者：Shlylhy
 更新时间：2026-02-26
 
@@ -25,7 +25,7 @@ Souen Ruka=早园 瑠佳
 Ichijo Takuma=一条 拓麻
 Kurenai Maria=红 玛丽亚
 Seiren=星炼
-Toya Rima=远矢 莉磨
+Tooya Rima=远矢 莉磨
 Senri Shiki=支葵 千里
 
 // 其他贵族吸血鬼
@@ -47,6 +47,9 @@ Tokiwa Yuko=朱鹭和 夕湖
 Kiryuu Zero=锥生 零
 Kiryuu Ichiru=锥生 一缕
 Kiryuu Ren=锥生 恋
+Kiryu Zero=锥生 零
+Kiryu Ichiru=锥生 一缕
+Kiryu Ren=锥生 恋
 
 // 黑主学院相关人员
 Cross Kaien=黑主 灰阎
@@ -57,7 +60,9 @@ Kageyama Kasumi=影山 霞
 Shindo Nadeshiko=新藤 抚子
 Kisaragi Fuka=如月 风花
 Wakaba Sayori=若叶 沙赖
+Yori=沙赖
 Yagari Tooga=夜刈 十牙
+Yagari Toga=夜刈 十牙
 Takamiya Kaito=鹰宫 海斗
 Takamiya Taito=鹰宫 台东
 Jinmu：神武
@@ -65,8 +70,6 @@ Momoyama：桃山
 Yoruno：夜乃
 
 // 其他
-"-chan": 酱
-"-sama": 大人
 KaZe：枢零
 
 通用词条
@@ -79,6 +82,7 @@ Night Class：夜间部
 Day Class：日间部
 Guardian：风纪委员
 Hunter's Association：猎人协会
+Hunter Association：猎人协会
 Association：协会
 Vampire Council：元老院
 The Council of Elders：元老院
@@ -96,6 +100,12 @@ Blood lake agent=血液淀剂
 // *************** 处理吸血鬼等级的各种写法 ***************
 // 规则：匹配 "level" 的各种大小写形式及其后的等级字母（A-E），统一为 "Level X" 格式。
 \blevel\s*([A-Ea-e])\b: Level $1
+// 处理已翻译中文名字后的敬语
+([\u4e00-\u9fa5]+)-sama：$1大人
+([\u4e00-\u9fa5]+)-chan：$1酱
+([\u4e00-\u9fa5]+)-san：$1桑
+([\u4e00-\u9fa5]+)-kun：$1君
+
 
 禁翻词条
 // 此区域区分大小写，用于保持原文
@@ -106,3 +116,4 @@ Level D
 Level E
 
 //日文与罗马音对照参考了https://vampireknight.fandom.com/wiki/Vampire_Knight_Wiki
+//部分代码使用了ai编写
