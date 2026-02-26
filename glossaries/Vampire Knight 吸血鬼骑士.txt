@@ -12,7 +12,7 @@
 // 吸血鬼
 // 玖兰家
 Kuran Kaname=玖兰 枢
-Kuran Yuki=玖兰 优姬
+Kuran Yuuki=玖兰 优姬
 Kuran Haruka=玖兰 悠
 Kuran Juri=玖兰 树里
 Kuran Rido=玖兰 李土
@@ -38,7 +38,7 @@ Shirabuki Sara=白蕗 更
 Ori=黄梨
 Toma=橙茉
 Shoto Isaya=菖藤依 砂也
-Hio Shizuka=绯樱 闲
+Hio Shizuuka=绯樱 闲
 Hanadagi=缥木
 Tokiwa Yuko=朱鹭和 夕湖
 
@@ -58,15 +58,16 @@ Kageyama Kasumi=影山 霞
 Shindo Nadeshiko=新藤 抚子
 Kisaragi Fuka=如月 风花
 Wakaba Sayori=若叶 沙赖
-Yagari Toga=夜刈 十牙
-Takamiya Kaito=鹰宫 台东
-Takamiya Taito=鹰宫 海斗
+Yagari Tooga=夜刈 十牙
+Takamiya Kaito=鹰宫 海斗
+Takamiya Taito=鹰宫 台东
 Jinmu：神武
 Momoyama：桃山
 Yoruno：夜乃
 
 // 其他
 "-chan": 酱
+KaZe：枢零
 
 通用词条
 // 此区域不区分大小写，用于翻译通用概念
