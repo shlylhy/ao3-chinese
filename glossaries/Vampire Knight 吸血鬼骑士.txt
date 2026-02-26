@@ -1,4 +1,4 @@
-版本号：1.0.6
+版本号：1.0.7
 维护者：Shlylhy
 更新时间：2026-02-26
 
@@ -66,6 +66,10 @@ Yoruno：夜乃
 
 // 其他
 KaZe：枢零
+“-chan”：酱
+“-sama”：大人
+“-kun”：君
+“-san”：桑
 
 通用词条
 // 此区域不区分大小写，用于翻译通用概念
@@ -102,11 +106,5 @@ Level E
 正则表达式
 // 规则：匹配 "level" 的各种大小写形式及其后的等级字母（A-E），统一为 "Level X" 格式。
 \blevel\s*([A-Ea-e])\b: Level $1
-
-// 处理已翻译中文名字后的敬语（使用英文冒号）
-([\u4e00-\u9fa5]+)[\s\-]*sama: $1大人
-([\u4e00-\u9fa5]+)[\s\-]*chan: $1酱
-([\u4e00-\u9fa5]+)[\s\-]*san: $1桑
-([\u4e00-\u9fa5]+)[\s\-]*kun: $1君
 
 //日文与罗马音对照参考了https://vampireknight.fandom.com/wiki/Vampire_Knight_Wiki
