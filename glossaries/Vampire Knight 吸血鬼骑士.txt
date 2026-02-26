@@ -1,4 +1,4 @@
-版本号：1.0.0
+版本号：1.0.1
 维护者：Shlylhy
 更新时间：2026-02-26
 
@@ -47,7 +47,6 @@ Tokiwa Yuko=朱鹭和 夕湖
 Kiryuu Zero=锥生 零
 Kiryuu Ichiru=锥生 一缕
 Kiryuu Ren=锥生 恋
-Kiryuus：锥生夫妇
 
 // 黑主学院相关人员
 Cross Kaien=黑主 灰阎
@@ -73,15 +72,17 @@ KaZe：枢零
 // 此区域不区分大小写，用于翻译通用概念
 // 组织与地名
 Cross Academy：黑主学院
-"Moon Dormitory"：月之寮
-"Sun Dormitory"：日之寮
-"Night Class"：夜间部
-"Day Class"：日间部
+Moon Dormitory：月之寮
+Sun Dormitory：日之寮
+Night Class：夜间部
+Day Class：日间部
 Guardian：风纪委员
 Hunter's Association：猎人协会
 Association：协会
 Vampire Council：元老院
+The Council of Elders：元老院
 Council：元老院
+Senate：元老院
 
 // 重要武器
 Bloody Rose：血蔷薇之枪
@@ -102,3 +103,5 @@ Level B
 Level C
 Level D
 Level E
+
+//日文与罗马音对照参考了https://vampireknight.fandom.com/wiki/Vampire_Knight_Wiki
