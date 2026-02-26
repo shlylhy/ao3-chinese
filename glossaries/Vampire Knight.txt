@@ -1,0 +1,103 @@
+版本号：1.0.0
+维护者：Shlylhy
+更新时间：2026-02-26
+
+// 术语表说明：本文件根据《吸血鬼骑士》漫画及动画官方设定编写。
+// 主要包含人物名称、组织、武器及吸血鬼等级相关术语。
+// 词条区分：人物名称、专有武器名称放在【词条】区（区分大小写）；通用设定、武器别称放在【通用词条】区（不区分大小写）。
+// 对于包含标点符号的特定作品名，使用引号进行精准匹配。
+
+词条
+// 此区域区分大小写，用于翻译人名等专有名词
+// 吸血鬼
+// 玖兰家
+Kuran Kaname=玖兰 枢
+Kuran Yuki=玖兰 优姬
+Kuran Haruka=玖兰 悠
+Kuran Juri=玖兰 树里
+Kuran Rido=玖兰 李土
+Kuran Ai=玖兰爱
+
+// 夜间部贵族吸血鬼
+Aido Hanabusa=蓝堂 英
+Kain Akatsuki=架院 晓
+Souen Ruka=早园 瑠佳
+Ichijo Takuma=一条 拓麻
+Kurenai Maria=红 玛丽亚
+Seiren=星炼
+Toya Rima=远矢 莉磨
+Senri Shiki=支葵 千里
+
+// 其他贵族吸血鬼
+Ichijo Asato=一条 麻远
+Ichio=一翁
+Aido Tsukiko=蓝堂 月子
+
+// 其他纯血种
+Shirabuki Sara=白蕗 更
+Ori=黄梨
+Toma=橙茉
+Shoto Isaya=菖藤依 砂也
+Hio Shizuka=绯樱 闲
+Hanadagi=缥木
+Tokiwa Yuko=朱鹭和 夕湖
+
+// 人类及猎人
+// 锥生家
+Kiryuu Zero=锥生 零
+Kiryuu Ichiru=锥生 一缕
+Kiryuu Ren=锥生 恋
+Kiryuus：锥生夫妇
+
+// 黑主学院相关人员
+Cross Kaien=黑主 灰阎
+Cross Yuki=黑主 优姬
+
+// 日间部及猎人
+Kageyama Kasumi=影山 霞
+Shindo Nadeshiko=新藤 抚子
+Kisaragi Fuka=如月 风花
+Wakaba Sayori=若叶 沙赖
+Yagari Toga=夜刈 十牙
+Takamiya Kaito=鹰宫 台东
+Takamiya Taito=鹰宫 海斗
+Jinmu：神武
+Momoyama：桃山
+Yoruno：夜乃
+
+// 其他
+"-chan": 酱
+
+通用词条
+// 此区域不区分大小写，用于翻译通用概念
+// 组织与地名
+Cross Academy：黑主学院
+"Moon Dormitory"：月之寮
+"Sun Dormitory"：日之寮
+"Night Class"：夜间部
+"Day Class"：日间部
+Guardian：风纪委员
+Hunter's Association：猎人协会
+Association：协会
+Vampire Council：元老院
+Council：元老院
+
+// 重要武器
+Bloody Rose：血蔷薇之枪
+Artemis：狩猎女神
+
+// 其他物品
+Blood lake agent=血液淀剂
+
+正则表达式
+// *************** 处理吸血鬼等级的各种写法 ***************
+// 规则：匹配 "level" 的各种大小写形式及其后的等级字母（A-E），统一为 "Level X" 格式。
+\blevel\s*([A-Ea-e])\b: Level $1
+
+禁翻词条
+// 此区域区分大小写，用于保持原文
+Level A
+Level B
+Level C
+Level D
+Level E
